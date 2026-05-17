@@ -8,9 +8,9 @@ from tkinter import simpledialog
 nlp = spacy.load("en_core_web_sm")
 
 # API Configuration  
-GOOGLE_API_KEY = "AIzaSyDd2Njm34U_vU_uYOPqFjI0S_yrUOMLhyo"  
-CUSTOM_SEARCH_ENGINE_ID = "3741929af179a4b17"
-JOOBLE_API_URL = "https://jooble.org/api/3f399c3d-2800-474c-bdba-4195187347eb"
+GOOGLE_API_KEY = "api-key"  
+CUSTOM_SEARCH_ENGINE_ID = "engine-id"
+JOOBLE_API_URL = "jobbleapi"
 
 MAX_RETRIES = 3  # Maximum number of retries for failed API requests
 
