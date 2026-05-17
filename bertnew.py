@@ -9,11 +9,11 @@ import spacy
 nlp = spacy.load("en_core_web_sm")
 
 # API Configuration  
-GOOGLE_API_KEY = "AIzaSyDd2Njm34U_vU_uYOPqFjI0S_yrUOMLhyo"  
-CUSTOM_SEARCH_ENGINE_ID = "3741929af179a4b17"
-JOOBLE_API_URL = "https://jooble.org/api/3f399c3d-2800-474c-bdba-4195187347eb"
-ADZUNA_APP_ID = "1fd3cc0a"
-ADZUNA_APP_KEY = "5b1f7014cdef3e07534727f8299ba74a"
+GOOGLE_API_KEY = ""  
+CUSTOM_SEARCH_ENGINE_ID = ""
+JOOBLE_API_URL = ""
+ADZUNA_APP_ID = ""
+ADZUNA_APP_KEY = ""
 TEMP_JOB_FILE = "temp_jobs.json"
 
 # Known skills for filtering extracted entities (can be expanded)
